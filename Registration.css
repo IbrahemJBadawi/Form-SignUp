@@ -1,0 +1,64 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+
+    /*Color*/
+    --body-color: linear-gradient(45deg, #E48DFF, #5AC1FF, #47FF88);
+
+    /*Font and typography*/
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*Font weight*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*margenes*/
+    --md-1: .5rem;
+    --md-2: 1rem;
+    --md-3: 1.5rem;
+    --md-4: 2rem;
+
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    max-height: 100%;
+    justify-content: center;
+    background: var(--body-color);
+    font-family: var(--body-font);
+}
+
+section {
+    position: absolute;
+    background: white;
+    padding: 20px 45px;
+    margin: 25px 0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
+}
+table thead tr th{
+    background-color: black;
+    color: white;
+    border-bottom: 5px black;
+    text-align: center;
+    padding: 15px;
+}
+table tbody tr td{
+    background-color: #bbb;
+    text-align: center;
+    padding: 25px;
+}
